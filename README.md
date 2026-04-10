@@ -1,6 +1,6 @@
 # CISC-121-Final-Project
 Final Project for CISC-121, implementing Binary Search
-The algorithm that I have chosen to implement and visualize is the Binary Search algorithm. As an algorithm that is both easier to understand, and better to create a more visually applealing example
+The algorithm that I have chosen to implement and visualize is the Binary Search algorithm. As an algorithm that is both easier to understand, and better to create a more visually applealing example.
 
 
 ## Decomposition
@@ -14,7 +14,7 @@ Goal for this app is to demonstrate binary search, to someone who does not need 
 
 ## Algorithm Design
 Input list will be auto generated, while selected target value will be on a slider. 
-Output will show whether or not target value is found in list, it's index, and the steps taken to achieve it
+Output will show whether or not target value is found in list, the index of said target value, and the steps taken to achieve it.
 
 # How to Run - Online
 1. Generate list using "Generate New Random List" button
