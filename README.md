@@ -23,7 +23,7 @@ Output will show whether or not target value is found in list, it's index, and t
 
 # How to Run - Offline
 ```
-git clone (https://github.com/Nightbear1/CISC-121-Final-Project)
+git clone https://github.com/Nightbear1/CISC-121-Final-Project-.git
 ```
 then, install gradio
 ```
