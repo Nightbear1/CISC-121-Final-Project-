@@ -4,7 +4,7 @@ The algorithm that I have chosen to implement and visualize is the Binary Search
 
 
 ## Decomposition
-For the binary search algorithm, starting with a sorted list and a target value, calculate a middle index of the list, and compare it to target value. If target value is smaller, search the left half. If target value is larger, then search the right half. Repeat until the value has been found, or all values have been accounted for.
+For the binary search algorithm, starting with a sorted list and a target value. Finding out the length of the function, we calculate a middle index of the list, before finding the length of the list. Setting start and end values to the length of the fucntion, we then compare the mid value of this new list and compare it to target value. If target value is smaller, search the left half, by recursively calling function with end values set at midpoint. If target value is larger, then recuresively call function with start value set at mid point.search the right half. Repeat until the value has been found, or all values have been accounted for.
 
 ## Pattern Recognition:
 Binary search utilizes a repeating pattern of comparing targets with values with the middle index, halving the search space with every refinement. That is why binary search has a time complexity of O(log n).
