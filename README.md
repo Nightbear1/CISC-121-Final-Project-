@@ -1,6 +1,6 @@
 # CISC-121-Final-Project
 Final Project for CISC-121, implementing Binary Search
-The algorithm that I have chosen to implement and visualize is the Binary Search algorithm. As an algorithm that is both easier to understand, and to create.
+The algorithm that I have chosen to implement and visualize is the Binary Search algorithm. As an algorithm that is both easier to understand, and better to create a more visually applealing example
 
 
 ## Decomposition
@@ -10,7 +10,7 @@ For the binary search algorithm, starting with a sorted list and a target value,
 Binary search utilizes a repeating pattern of comparing targets with values with the middle index, halving the search space with every refinement. That is why binary search has a time complexity of O(log n).
 
 ## Abstraction
-Goal for this app is to demonstrate binary search, to someone who does not need to know a lot about algorithms. For this app, Gradio was used.
+Goal for this app is to demonstrate binary search, to someone who does not need to know a lot about algorithms. Eliminating common edge cases, such as input array of length 0, or non-interger target values being selected was achieved. For this app, Gradio was used to simplify visual output.
 
 ## Algorithm Design
 Input list will be auto generated, while selected target value will be on a slider. 
@@ -42,7 +42,7 @@ Here lies a valid target in example Array:
 Here lies a target not in example Array
     ![Alt text](/Files/FALSE.png?raw=true "Incorrect Implementation")
 
-here lies example without generated Array
+Here lies example without generated Array
     ![Alt text](/Files/NoArray.png?raw=true "Correct Implementation")
 
 # Hugging Face Link
